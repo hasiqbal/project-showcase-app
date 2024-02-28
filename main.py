@@ -10,3 +10,5 @@ with col2:
     st.title("Hasan Iqbal")
     content = ''' Hi I am a Devops Engineer '''
     st.info(content)
+
+st.text("These are some apps I have built in Python")
