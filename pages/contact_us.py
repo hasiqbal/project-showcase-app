@@ -11,3 +11,4 @@ with st.form("contact me "):
     submit_button = st.form_submit_button("submit")
     if submit_button:
         send_email(message)
+        st.info("your email was sent successfully")
